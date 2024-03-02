@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export function NoteSummary() {
+export default function NoteSummary() {
     const [selectedFile, setSelectedFile ] = useState()
 
     function onFileChange(event) {
