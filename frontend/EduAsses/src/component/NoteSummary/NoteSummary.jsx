@@ -2,7 +2,7 @@ export function NoteSummary() {
     return (
         <div>
             <form >
-                <label htmlFor=""></label>
+                <label htmlFor="file"></label>
             </form>
         </div>
     )
