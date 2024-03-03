@@ -11,7 +11,7 @@
    margin:auto;
 }
 
-button{  background-color:#6697A5;
+.upload{  background-color:#6697A5;
    border:1px solid;
    border-radius:20px;
    font-size:20px;
@@ -20,5 +20,17 @@ button{  background-color:#6697A5;
    padding:10px 10px;
   display:block;
  margin:0 auto;
+}
+
+.Test-question{  background-color:#6697A5;
+   border:1px solid;
+   border-radius:20px;
+   font-size:20px;
+  
+   color:white;
+   padding:10px 10px;
+  display:block;
+ margin:0 auto;
+ margin-t
 }
 

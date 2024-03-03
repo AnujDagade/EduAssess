@@ -35,7 +35,7 @@ export default function NoteSummary() {
             <div> 
                 {summary && <p>{summary}</p>}
             </div>
-            <button onClick={showTst}>Create Test Questions</button>
+            <button onClick={showTst} className="Test-question">Create Test Questions</button>
             <div>
                 {showTest && <Test summary = {summary}/>}
             </div>
