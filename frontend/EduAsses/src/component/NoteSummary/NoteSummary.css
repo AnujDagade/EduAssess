@@ -20,6 +20,7 @@
    padding:10px 10px;
   display:block;
  margin:0 auto;
+ margin-top:20px;
 }
 
 .Test-question{  background-color:#6697A5;
@@ -31,6 +32,16 @@
    padding:10px 10px;
   display:block;
  margin:0 auto;
- margin-t
+ margin-top:20px;
 }
+
+.label{
+    
+  font-size:30px;
+   display:flex;
+   justify-content:center;
+margin-bottom:20px;
+margin-top:20px;
+line-height:2;
+font-weight:bold;}
 

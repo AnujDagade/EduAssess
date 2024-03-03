@@ -28,7 +28,7 @@ export default function NoteSummary() {
     return (
         <div>
             <form >
-                <label htmlFor="file"></label>
+                <label htmlFor="file" className="label">Upload Notes</label>
                 <input onChange={onFileChange} type="file" id="file" name="file" className="file" />
                 <button onClick={onFileUpload} className="upload">Upload</button>
             </form>
