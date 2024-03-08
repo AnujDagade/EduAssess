@@ -1,0 +1,30 @@
+:root{--firstColor: #2bd0d1;
+--secondColor:white;
+--thirdColor:#4a406b;
+--fourthColor:#b3b3b7;
+--fifthColor:#71a0a5;
+}
+
+
+.form-title{text-align:center;
+margin-top: 20px;}
+
+input{background-color:var(--thirdColor);
+   border:none;
+   border-radius:20px;
+   font-size:20px;
+   color:white;
+   padding:10px 10px;
+  display:block;
+ margin:0 auto;
+ margin-top:20px;
+ width:30%
+
+}
+
+.form-holder{
+    width:auto;
+    height:fit-content;
+    background: blue;
+  
+}

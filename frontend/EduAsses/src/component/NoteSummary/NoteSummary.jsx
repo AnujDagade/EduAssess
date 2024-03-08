@@ -11,7 +11,7 @@ export default function NoteSummary() {
         setSelectedFile(event.target.files[0])
     }
 
-    function onFileUpload(event) {
+    async function onFileUpload(event) {
         event.preventDefault();
         const formData = new FormData()
         formData.append("file", selectedFile)
@@ -19,6 +19,11 @@ export default function NoteSummary() {
         console.log(formData);
 
         //api call to upload file
+        const res = await fetch('https://miniature-space-doodle-jqvp64v647qfgrj-8000.app.github.dev/file/upload/',{
+            method:"POST",
+            body:formData
+        })
+        console.log(await res.json())
     }
     function showTst() {
         setShowTest((prev) => !prev)
