@@ -15,4 +15,4 @@ import uploadRoutes from './routes/upload.route.js';
 
 app.use('/file', uploadRoutes)
 
-export default app;
+export default app; 
