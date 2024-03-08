@@ -3,7 +3,7 @@ import './App.css'
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NoteSummary from './component/NoteSummary/NoteSummary'
-import Login from './component/Login/Login'
+import Login from './component/Auth/Login'
 import Home from './component/Home';
 import NavBar from './component/NavBar/NavBar'
 import Test from './component/Grading/Test'

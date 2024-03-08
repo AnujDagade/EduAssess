@@ -1,23 +1,29 @@
+:root{--firstColor: #2bd0d1;
+--secondColor:white;
+--thirdColor:#4a406b;
+--fourthColor:#b3b3b7;
+}
+
 .file{
-   background-color:#6697A5;
+   background-color:var(--firstColor);
    border:1px solid;
    border-radius:20px;
    font-size:20px;
    margin-top:20px;
-   color:white;
+   color:var(--secondColor);
    padding:10px 10px;
    margin-left:40px;
    display:block;
    margin:auto;
 }
 
-.upload{  background-color:#6697A5;
+.upload{  background-color:var(--thirdColor);
    border:1px solid;
    border-radius:20px;
    font-size:20px;
   
    color:white;
-   padding:10px 10px;
+   padding:10px 20px;
   display:block;
  margin:0 auto;
  margin-top:20px;
@@ -36,7 +42,7 @@
 }
 
 .label{
-    
+   
   font-size:30px;
    display:flex;
    justify-content:center;
@@ -45,3 +51,6 @@ margin-top:20px;
 line-height:2;
 font-weight:bold;}
 
+::file-selector-button{
+  border-radius:10px;
+}
