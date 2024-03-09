@@ -1,12 +1,12 @@
 :root{--firstColor: #2bd0d1;
 --secondColor:white;
 --thirdColor:#4a406b;
---fourthColor:#b3b3b7;
+--fourthColor:#cca8e9;
 --fifthColor:#71a0a5;
 }
 
 .file{
-   background-color:var(--firstColor);
+   background-color:var(--thirdColor);
    border:1px solid;
    border-radius:20px;
    font-size:20px;
@@ -20,7 +20,12 @@
    
 }
 
-.upload{  background-color:var(--thirdColor);
+.file:hover{
+  color:var(--secondColor);
+  background-color: #cca8e9;
+}
+
+.upload{  background-color:var(--firstColor);
    border:1px solid;
    border-radius:20px;
    font-size:20px;
@@ -30,12 +35,13 @@
   display:block;
  margin:0 auto;
  margin-top:20px;
- width:30%
+ width:20%
 }
 
 .upload:hover{
-      background-color:#a393eb;
-      color:var(--secondColor);
+      background-color:#95e8d7;
+      color:black;
+      border:none;
 }
 
 .Test-question{  background-color:#71a0a5;
@@ -78,3 +84,85 @@ font-weight:bold;}
   background-color:#fffcea;
   color:black;
 }
+
+@media(max-width: 576px) {
+  .file{
+   background-color:var(--thirdColor);
+   border:1px solid;
+   border-radius:20px;
+   font-size:20px;
+   margin-top:20px;
+   color:var(--secondColor);
+   padding:20px 15px;
+   margin-left:40px;
+   display:block;
+   margin:auto;
+   width:80%;
+   
+}
+
+.file:hover{
+  color:var(--secondColor);
+  background-color: #cca8e9;
+}
+
+.upload{  background-color:var(--firstColor);
+   border:1px solid;
+   border-radius:20px;
+   font-size:20px;
+  
+   color:white;
+   padding:10px 10px;
+  display:block;
+ margin:0 auto;
+ margin-top:20px;
+ width:40%
+}
+
+.upload:hover{
+      background-color:#95e8d7;
+      color:black;
+      border:none;
+}
+
+.Test-question{  background-color:#71a0a5;
+ 
+ 
+   border-radius:20px;
+     border:none;
+   font-size:20px;
+  width:60%;
+   color:white;
+   padding:10px 10px;
+  display:block;
+ margin:0 auto;
+ margin-top:20px;
+}
+
+.Test-question:hover{
+   background-color:   #ace7ef;
+     color:black;
+}
+
+.label{
+   
+  font-size:30px;
+   display:flex;
+   justify-content:center;
+margin-bottom:20px;
+margin-top:20px;
+line-height:2;
+font-weight:bold;}
+
+::file-selector-button{
+  border-radius:10px;
+  cursor:pointer;
+  border:none;
+  margin-right:20px;
+}
+
+::file-selector-button:hover{
+  background-color:#fffcea;
+  color:black;
+}}
+

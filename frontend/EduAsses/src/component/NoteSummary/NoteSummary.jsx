@@ -24,6 +24,7 @@ export default function NoteSummary() {
             body:formData
         })
         console.log(await res.json())
+        alert("Button pressed")
     }
     function showTst() {
         setShowTest((prev) => !prev)
