@@ -1,7 +1,6 @@
+
 export  async function upload(req, res) {
-    try {
-        throw new Error("Not Implemented");
-    } catch (err) {
-        res.status(501).send(err.message);
-    }
+    console.log( await req.file)
+
+    res.status(200).send({message:"OK"});
 }
