@@ -18,13 +18,17 @@ input{background-color:var(--thirdColor);
   display:block;
  margin:0 auto;
  margin-top:20px;
- width:30%
+ width:60%
 
 }
 
 .form-holder{
     width:auto;
-    height:fit-content;
-    background: blue;
+    height:400px;
+    background: var(--fifthColor);
+    margin:50px 500px;
+    border-radius:20px;
+    padding-top: 50px;
+    
   
 }
