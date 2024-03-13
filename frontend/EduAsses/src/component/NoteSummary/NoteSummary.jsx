@@ -11,8 +11,15 @@ export default function NoteSummary() {
         setSelectedFile(event.target.files[0])
     }
 
+    /**
+     * 
+     * This function is called when the user clicks the upload button.
+     * It sends the file to the server to be uploaded. using the fetch api.
+     */
     async function onFileUpload(event) {
         event.preventDefault();
+
+        //create form data and append the file to it
         const formData = new FormData()
         formData.append("file", selectedFile)
 

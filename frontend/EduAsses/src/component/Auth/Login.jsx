@@ -3,17 +3,17 @@ import "./login.css";
 
 export default function Login() {
     return (
-        <div class="login-container">
-            <div class="login-wrapper">
-                <h2 class="form-title">Login Form</h2>
+        <div className="login-container">
+            <div className="login-wrapper">
+                <h2 className="form-title">Login Form</h2>
                 <form>
-                    <div class="form-holder-login">
-                        <input type="email" class="input" placeholder="Email" />
-                        <input type="password" class="input" placeholder="Password" />
+                    <div className="form-holder-login">
+                        <input  type="email" className="input" placeholder="Email" />
+                        <input type="password" className="input" placeholder="Password" />
                     </div>
-                    <button class="submit-btn">Login</button>
+                    <button className="submit-btn">Login</button>
                 </form>
-                <a href="#" class="forgot-password">Forgot password</a>
+                <a href="#" className="forgot-password">Forgot password</a>
             </div>
         </div>
     );
