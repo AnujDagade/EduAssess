@@ -26,7 +26,7 @@ export default function NoteSummary() {
         console.log(formData);
 
         //api call to upload file
-        const res = await fetch('https://miniature-space-doodle-jqvp64v647qfgrj-8000.app.github.dev/file/upload/',{
+        const res = await fetch('https://eduassess.azurewebsites.net//file/upload/',{
             method:"POST",
             body:formData
         })
