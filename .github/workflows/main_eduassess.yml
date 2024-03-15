@@ -59,4 +59,4 @@ jobs:
           app-name: 'EduAssess'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C5C4138BB1EA4ABB804860083A6C63D7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_23E4155E9CDB4A53840BD6900DA3B3D8 }}
