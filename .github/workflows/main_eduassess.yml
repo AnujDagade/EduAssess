@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'EduAssess'
           slot-name: 'Production'
-          package: ./backend/
+          package: ./backend
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_23E4155E9CDB4A53840BD6900DA3B3D8 }}
