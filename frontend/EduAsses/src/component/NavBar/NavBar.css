@@ -3,10 +3,39 @@
 
 .nav-link{color: white;
 font-weight: normal;
-font-size:22px;}
+font-size:22px;
+margin-left:15px;
 
-.navbar-brand{font-size: 35px;
+  transition: transform ease 300ms;}
+
+.navbar-brand{font-size: 32px;
 border: none;
 text-decoration: none;
 color:white;
+font-weight: bold;
+margin-left:20px;
+}
+
+
+.nav-link:hover{
+
+ transform: translate(0, -10px);
+ color:white;
+ text-decoration:underline;
+ font-weight:bold;
+ 
+}
+
+.navbar-brand{font-size: 30px;
+border: none;
+text-decoration: none;
+color:white;
+font-weight: bold;
+}
+
+.navbar-brand:hover{font-size: 30px;
+border: none;
+text-decoration: none;
+color:white;
+font-weight: bold;
 }
